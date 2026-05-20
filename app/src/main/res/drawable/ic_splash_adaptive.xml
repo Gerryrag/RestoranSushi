@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Latar belakang putih bersih -->
+    <background android:drawable="@android:color/white"/>
+
+    <!--
+        Menggunakan Inset 35% untuk memaksa logo sushi mengecil ke tengah.
+        Ini akan memastikan logo berada di dalam "Safe Zone" 72dp
+        sehingga tidak akan terpotong oleh masker lingkaran Android.
+    -->
+    <foreground>
+        <inset
+            android:drawable="@drawable/ic_sushi_logo"
+            android:inset="35%" />
+    </foreground>
+</adaptive-icon>
